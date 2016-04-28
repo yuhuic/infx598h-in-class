@@ -1,0 +1,34 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+nav {
+    background-color: #F50;
+}
+
+nav ul {
+    padding-left: 0;
+}
+
+nav li {
+    display: inline-block; 
+    list-style-type: none;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1em; /*full the whole column*/
+    text-decoration: none; /* remove underline */
+    color: #FFF;
+    transition: all 500ms; /* add animation when you hover */ /* "all" means all element change together. You can change the transition time of each element by adding the name in front of the time. e.g. background-color 500ms */
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #D30;
+    border-width: 5px;
+    border-color: #F00; /* change the border style */
+    outline: #F00 solid 5px;
+    font-size: 120%;
+}
+
